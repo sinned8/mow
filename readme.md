@@ -1,3 +1,1 @@
-This is the mowing app
-
-test
+This is the read me file for the mower app
