@@ -6,7 +6,48 @@
     <title>Mow</title>
 </head>
 <body>
-    
+    <header> Time to Mow?</header>
+    <div id="container">
+
+        <div class="search-bar">
+
+            <button class="locationbttn">
+                <!-- img for loc -->
+            </button>
+            <input type="text" required class="cityNameInput" placeholder="Search">
+            <button class="searchbttn">
+                <!-- img for search -->
+            </button>
+
+        </div>
+
+        <div class="time-last-mow">
+            <label>
+                Date of last mow:
+                <input type="date" class="last-mow-date">
+            </label>
+        </div>
+
+        <div class="main">
+
+            <div class="sunlight-container">
+                <p class="sunlight"></p>
+            </div>
+
+            <div class="co2-container">
+                <p class="co2"></p>
+            </div>
+
+            <div class="soiltemp-container">
+                <p class="soiltemp"></p>
+            </div>
+
+            <div class="humidity-container">
+                <p class="humidity"></p>
+            </div>
+
+        </div>
+    </div>
 </body>
 <script src="main.js"></script>
 </html>
